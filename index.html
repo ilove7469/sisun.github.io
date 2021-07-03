@@ -54,7 +54,13 @@
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
   }
+  .thumbnail:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
   .thumbnail img {
     width: 100%;
     height: 100%;
@@ -193,7 +199,16 @@
   }
   .col-sm-5{
   text-align: center;
+  width: 100%;
   }
+  .col-sm-4_1{
+  width: 60%;
+  float :left;
+  }
+  .col-sm-4 {
+  text-align: center;
+  }
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -229,14 +244,14 @@
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-  <div class="row">
+    <div class="row">
       <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-
+      <h1>About Me</h1>
+      </div>
+	  <div class="col-sm-4_1">
       <h2>안녕하세요! 개발자 박태웅입니다.</h2><br>
       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-     
+	  </div>
 
 
   </div>
@@ -288,27 +303,27 @@
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Project</h2><br>
-  <h4>What we have created</h4>
+  <h4>KOSTA_PROJECT</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="http://sisun1225.github.io/img/favicon.png" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
+        <img src="http://sisun1225.github.io/img/kostaProject1.png" alt="Paris" width="400" height="300">
+        <p><strong>1차 프로젝트</strong></p>
+        <p>테스트 테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트 </p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="http://sisun1225.github.io/img/favicon.png" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
+        <img src="http://sisun1225.github.io/img/kostaProject2.png" alt="New York" width="400" height="300">
+        <p><strong>2차 프로젝트</strong></p>
+        <p>테스트 테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트 </p>
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4"  onclick="window.open('https://www.naver.com/')">
       <div class="thumbnail">
-        <img src="http://sisun1225.github.io/img/favicon.png" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
+        <img src="http://sisun1225.github.io/img/kostaProject3.png" alt="San Francisco" width="400" height="300">
+        <p><strong>3차 프로젝트</strong></p>
+        <p>테스트 테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트 </p>
       </div>
     </div>
   </div><br>
@@ -319,7 +334,7 @@
   <h2 class="text-center">Contact</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p><span class="glyphicon glyphicon-envelope"></span> mylove7469@naver.com</p>
+      <h3><span class="glyphicon glyphicon-envelope"></span> mylove7469@naver.com</h3>
     </div>
 
   </div>
