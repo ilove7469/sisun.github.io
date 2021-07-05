@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="shortcut icon" type="image/png" href='http://sisun1225.github.io/img/favicon.png'/>
-  <title>박태웅입니다.</title>
+  <title>박태웅</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,15 +20,16 @@
   h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #565064;
+    color: #818181;;
     font-weight: 600;
     margin-bottom: 30px;
+    font-family: 'Spoqa Han Sans', sans-serif;
   }
 /*작은글씨*/
   h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #565064;
+    /* color: #e0d4ff; */
     font-weight: 400;
     margin-bottom: 30px;
   }  
@@ -59,7 +60,7 @@
   }
  /*footer*/  
     .bg-violet {
-    background-color: #f9f6ff;
+    background-color: #392f51;
     color : black;
   }
   
@@ -74,14 +75,15 @@
   }
   .thumbnail {
     padding: 0 0 15px 0;
-    border: none;
+    border: 1px solid #f6f6f6;
     border-radius: 0;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
+    
   }
-  .thumbnail:hover {
+/*   .thumbnail:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+} */
 
   .thumbnail img {
     width: 100%;
@@ -146,11 +148,11 @@
     background-color: #f4511e;
     color: #fff;
   }
- /*메뉴 색*/
+ /*메뉴 색 #5e42a6*/
   .navbar { 
     margin-bottom: 0;
-    background-color: #5e42a6;
-    opacity : 0.8;
+    background-color: white;
+/*  opacity : 0.8; */
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -158,12 +160,26 @@
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    border-bottom: 1px solid #a390d6;
+   
   }
+  
+  
+#divlive{
+width: 100%;
+height : 1px;
+    border-bottom: 1px solid #a390d6;
+/* background: linear-gradient( to right, white, #312450, white); */
+background-color: #a390d6;
+}
+
+
   .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: grey !important;
   }
+  /* #5f648a */
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #5f648a !important;
+    color: blue !important;
     background-color: #fff !important;
   }
   /*f4511e*/
@@ -204,6 +220,12 @@
       -webkit-transform: translateY(0%);
     }
   }
+  
+  #portfolio{
+width: 1200px;
+}
+
+
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
@@ -213,7 +235,11 @@
       width: 100%;
       margin-bottom: 35px;
     }
+      #portfolio{
+width: 100%;
+}
   }
+
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
@@ -226,6 +252,7 @@
   .col-sm-5{
   text-align: center;
   width: 100%;
+  color: #e0d4ff !important;
 
   }
 
@@ -241,14 +268,6 @@
 
 
 
-#divlive{
-width: 80%;
-height: 2px;
-background: linear-gradient( to right, white, #312450, white);
-background-color: #7a6a80;
-margin-left: 10%;
-margin-right: 10%;
-}
 
 p.typing-txt{display: none;}
   
@@ -274,7 +293,7 @@ p.typing-txt{display: none;}
     margin: 0 auto;
     text-align: center;
     padding-bottom: 5rem;
-    background: #e7e6e6;
+    /* background: #e7e6e6; */
 }
 
 .skill_image_container {
@@ -286,8 +305,10 @@ p.typing-txt{display: none;}
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 2rem;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+    /* box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%); */
+    border: 1px solid #e7e6e6;
 }
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -305,9 +326,8 @@ p.typing-txt{display: none;}
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-                <li><a href="#portfolio">Project</a></li>
+        <li><a href="#portfolio">Project</a></li>
         <li><a href="#services">Skills</a></li>
-
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -323,7 +343,7 @@ p.typing-txt{display: none;}
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid text-center">
-      <h2>About Me</h2>
+      <h2>개발자 소개</h2>
 
       <div class="col-sm-4">
 
@@ -339,7 +359,7 @@ p.typing-txt{display: none;}
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Project</h2><br>
+  <h2>개인 프로젝트</h2><br>
   <h4>KOSTA_PROJECT</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
@@ -371,7 +391,7 @@ p.typing-txt{display: none;}
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
   <div class="row slideanim">
-	  <h2>Skills</h2>
+	  <h2>기술스택 소개</h2>
 	  <h4>What we offer</h4>
 	  <div class="skill">
 	  <div class="skill_image_container">dd</div>
@@ -456,10 +476,10 @@ p.typing-txt{display: none;}
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-violet">
-  <h2 class="text-center">Contact</h2>
+  <!-- <h2 class="text-center">Contact</h2> -->
   <div class="row">
     <div class="col-sm-5">
-      <h3><span class="glyphicon glyphicon-envelope"></span> mylove7469@naver.com</h3>
+      <h4>박태웅 | 이메일 mylove7469@naver.com | 카카오톡 sisun1225 | 깃허브 sisun1225</h4>
     </div>
   </div>
 </div>
