@@ -312,7 +312,8 @@ section{
 }
 
 #projectDiv{
-	margin : 20px;
+	margin : 0 auto;;
+	width: 80%;
 
 
 }
