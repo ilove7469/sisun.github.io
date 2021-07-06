@@ -37,6 +37,7 @@
     margin-bottom: 0;
   }
   .jumbotron p{
+    margin: 0px;
     font-size: 40px;
     font-weight: bolder;
     text-shadow: -1px 0 #565064, 0 1px #565064, 1px 0 #565064, 0 -1px #565064;
@@ -216,26 +217,6 @@ width: 1200px;
 }
 
 
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-    }
-      #portfolio{
-width: 100%;
-}
-  }
-
-  @media screen and (max-width: 480px) {
-    .logo {
-      font-size: 150px;
-    }
-
-  }
   .col-sm-8 {
   width: 100%;
   }
@@ -282,7 +263,7 @@ p.typing-txt{display: none;}
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 10px;
     /* background: #e7e6e6; */
 }
 
@@ -312,15 +293,78 @@ section{
 }
 
 #projectDiv{
-	margin : 0 auto;;
+	margin : 0 auto;
 	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 
+}
+#about{
+	margin : 0 auto;
+	width: 1200px;
+	
+}
+
+.self {
+	padding-top: 20px;
+	width: 25%;
+	float: left;
+}
+.selfText{
+	width: 75%;
+	float: left;
+	text-align: left !important;
+	padding-top: 0px;
+	
+}
+
+#projectDivText{
+	text-align: left !important;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+#pageTtitleText{
+	width: 80%;
+	text-align: left !important;
+	
+}
+
+#pageTtitle{
+	    padding: 60px 50px 0px;
 }
 
 
 
 
 
-
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    #portfolio{
+	width: 100%;
+	}
+	#about{
+	width: 100%;
+	}
+	.selfText{
+	width: 100%;
+	}
+	.self{
+	width:100%;
+	}
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
 
