@@ -1,7 +1,4 @@
-@charset "EUC-KR";
-
-
-  body {
+body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
@@ -83,13 +80,10 @@
       transition: 0.3s;
   }
   
-    .thumbnail:hover {
+  .thumbnail:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   cursor: pointer;
-     
-
 }
-
 
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -166,14 +160,13 @@
   }
   
   
-#divlive{
-width: 100%;
-height : 1px;
-    border-bottom: 1px solid #a390d6;
-/* background: linear-gradient( to right, white, #312450, white); */
-background-color: #a390d6;
-}
-
+  #divlive{
+  width: 100%;
+  height : 1px;
+  border-bottom: 1px solid #a390d6;
+  /* background: linear-gradient( to right, white, #312450, white); */
+  background-color: #a390d6;
+  }
 
   .navbar li a, .navbar .navbar-brand {
     color: grey !important;
@@ -201,6 +194,7 @@ background-color: #a390d6;
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  
   @keyframes slide {
     0% {
       opacity: 0;
@@ -223,9 +217,12 @@ background-color: #a390d6;
   }
   
   #portfolio{
-width: 1200px;
-}
-
+  width: 1200px;
+  }
+  
+  #services{
+	width: 1200px;	
+  }
 
   .col-sm-8 {
   width: 100%;
@@ -234,29 +231,25 @@ width: 1200px;
   text-align: center;
   width: 100%;
   color: #e0d4ff !important;
-
   }
 
   .col-sm-4 {
   text-align: center;
-
   }
+  
   .col-sm-4 {
   color : gray;
   }
 
-        .col-sm-4_1{
-        margin-left : 15%;
-        margin-right :15%;
-	  width: 70%;
-	  float :left;
-	  }
+  .col-sm-4_1{
+  margin-left : 15%;
+  margin-right :15%;
+  width: 70%;
+  float :left;
+  }
 
-
-
-
+/* 메인 타이핑관련 */
 p.typing-txt{display: none;}
-  
 
 .typing {  
 /*       position: absolute;*/ 
@@ -269,9 +262,8 @@ p.typing-txt{display: none;}
       0%{border-right: 1px solid #fff} 
       50%{border-right: 1px solid #000} 
       100%{border-right: 1px solid #fff} 
-    }
-    
-    
+    }  
+/* 메인 타이핑관련 끝*/
     
 .skill {
     height: 100%;
@@ -312,13 +304,11 @@ section{
 	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
-
 }
+
 #about{
 	margin : 0 auto;
 	width: 1200px;
-	
 }
 
 .self {
@@ -326,25 +316,23 @@ section{
 	width: 25%;
 	float: left;
 }
+
 .selfText{
 	width: 75%;
 	float: left;
 	text-align: left !important;
 	padding-top: 0px;
-	
 }
 
 #projectDivText{
 	text-align: left !important;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	
 }
 
 #pageTtitleText{
 	width: 80%;
 	text-align: left !important;
-	
 }
 
 #pageTtitle{
@@ -352,9 +340,7 @@ section{
 }
 
 
-
-
-
+/* 반응형 */
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
@@ -366,6 +352,9 @@ section{
     }
     #portfolio{
 	width: 100%;
+	}
+	#services{
+	width: 100%;	
 	}
 	#about{
 	width: 100%;
@@ -382,4 +371,4 @@ section{
       font-size: 150px;
     }
   }
-
+/* 반응형 끝*/
