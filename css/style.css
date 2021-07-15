@@ -241,6 +241,9 @@ width: 1200px;
   text-align: center;
 
   }
+  .col-sm-4 {
+  color : gray;
+  }
 
         .col-sm-4_1{
         margin-left : 15%;
