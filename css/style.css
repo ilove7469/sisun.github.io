@@ -223,6 +223,9 @@ body {
   #services{
 	width: 1200px;	
   }
+  #services span{
+  color: gray;
+  }
 
   .col-sm-8 {
   width: 100%;
