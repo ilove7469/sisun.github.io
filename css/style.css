@@ -314,9 +314,13 @@ section{
 	width: 1200px;
 }
 
-.self {
-	padding-top: 20px;
+.self{
 	width: 25%;
+	float: left;
+}
+
+.selfphoto img{
+	width : 250px;
 	float: left;
 }
 
@@ -325,6 +329,7 @@ section{
 	float: left;
 	text-align: left !important;
 	padding-top: 0px;
+	padding-left : 20px;
 }
 
 #projectDivText{
@@ -344,7 +349,7 @@ section{
 
 
 /* ¹ÝÀÀÇü */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -365,9 +370,46 @@ section{
 	.selfText{
 	width: 100%;
 	}
-	.self{
+	
+	.selfText h2{
+	text-align: center;
+	}
+	
+	.selfphoto {
+	display : inline-block;
+}
+	.selfphoto img{
+	width : 400px;
+	text-align: center;
+}
+
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    #portfolio{
+	width: 100%;
+	}
+	#services{
+	width: 100%;	
+	}
+	#about{
+	width: 100%;
+	
+	}
+	.selfText{
+	width: 100%;
+	}
+	.selfphoto{
 	width:100%;
 	}
+	
   }
   @media screen and (max-width: 480px) {
     .logo {
