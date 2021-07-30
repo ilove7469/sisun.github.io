@@ -331,6 +331,9 @@ section{
 	padding-top: 0px;
 	padding-left : 20px;
 }
+.selfText h2{
+	    margin-top: 0px;
+}
 
 #projectDivText{
 	text-align: left !important;
@@ -369,6 +372,7 @@ section{
 	}
 	.selfText{
 	width: 100%;
+	
 	}
 	
 	.selfText h2{
