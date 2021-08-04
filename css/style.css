@@ -235,6 +235,9 @@ body {
   width: 100%;
   color: #e0d4ff !important;
   }
+  .col-sm-5 h5{
+  margin: 0px ;
+  }
 
   .col-sm-4 {
   text-align: center;
@@ -352,7 +355,8 @@ section{
 
 
 /* 반응형 */
-  @media screen and (max-width: 1200px) {
+/* 타블렛은 1023까지 */
+  @media screen and (max-width: 1023px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -388,7 +392,8 @@ section{
 }
 
   }
-  @media screen and (max-width: 768px) {
+/* 모바일은 767까지 */
+  @media screen and (max-width: 767px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
