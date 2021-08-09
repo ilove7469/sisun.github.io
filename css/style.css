@@ -379,6 +379,9 @@ width: 100%;
 height: 100%;
 	}
 
+#projectvideo{
+	box-shadow: 3px 3px 5px grey;
+}
 
 /* 반응형 */
 /* 타블렛은 1023까지 */
