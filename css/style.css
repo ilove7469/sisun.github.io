@@ -343,6 +343,15 @@ section{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+#projectDivVideoText{
+	margin-bottom: 40px;
+
+}
+#projectDivVideoText h4{
+	text-align: center !important;
+	margin:5px !important; 
+	padding:0 !important;
+}
 
 #pageTtitleText{
 	width: 80%;
@@ -355,7 +364,7 @@ section{
 
 .video-container {
 position: relative;
-width: 80%;
+width: 70%;
 height: auto;
 padding-top: 50%;
 margin: 0 auto;
