@@ -12,6 +12,7 @@ body {
     font-weight: 600;
     margin-bottom: 30px;
     font-family: 'Spoqa Han Sans', sans-serif;
+    margin-top: 0px;
   } 
   
 /*¿€¿∫±€ææ*/
@@ -375,7 +376,7 @@ body {
 	}
   #projectDivVideoText h4{
 	text-align: center !important;
-	margin:5px !important; 
+	margin:20px 0 0 0 !important; 
 	padding:0 !important;
 	}
 
