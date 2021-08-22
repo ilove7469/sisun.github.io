@@ -78,7 +78,7 @@
 <div id="projectDivText">
   <h3>담당 영역소개</h3><h3></h3>
       <h5>사용자 페이지 - 디자인(메인페이지 제외한 나머지)</h5>
-      <h5>관리콘솔  - 디자인, 메인페이지, 과정기획 전체, 기본정보(강사,회사)</h5>
+      <h5>관리콘솔  - 디자인, 메인페이지, 과정기획 전체, 기본정보(강사,회사), 엑셀출력</h5>
       
 </div>
 </div>
@@ -90,18 +90,22 @@
 <!--영상부분 -->
 <section>
 <div id="projectDiv">
-
-	<div class="video-container">
-		<!--  width="420" height="315"  -->
-		<iframe src="https://player.vimeo.com/video/587737490?h=e1cb1fe4b0" frameborder="0" allowfullscreen></iframe>
+	<h4>관리 콘솔 시연 영상 <span style="color: red">(비밀번호 : 1478)</span></h4>
+<!-- 	<button onclick="innerTexttest();">dddd</button> -->
+	<div class="video-container-wrap">
+		<div class="video-container">
+			<!--  width="420" height="315"  -->
+			<iframe src="https://player.vimeo.com/video/587737490?h=e1cb1fe4b0&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
 	
 	<div id="projectDivVideoText">
-		<h4>관리 콘솔 사용하는 모습 <span style="color: red">(비밀번호 : 1478)</span></h4>
+		
 		<h5>개인이 작업한 부분만 소개되어있습니다.</h5>
 		<h5>전체 소개는 깃허브 <a href ="https://github.com/sisun1225/kosta_final_project" target="_blank">리드미</a> 또는 <a href ="http://sisun1225.github.io/img/project3ppt.pdf" target="_blank">발표자료</a>에 소개되어있습니다.</h5>
 		
 	</div>
+</div>
 </section>
 
 <div id="divlive"></div>
@@ -192,6 +196,13 @@
     </div>
   </div>
 </div>
+
+<script>
+function innerTexttest()  {
+		  const element = document.getElementById('video-container-wrap');
+		  element.innerHTML = "<div style='color:red'>A</div>";
+} 
+</script>
 
 </body>
 </html>
