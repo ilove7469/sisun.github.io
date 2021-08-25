@@ -510,6 +510,12 @@ body {
 	ol, ul {
 	padding-left: 15px;
 	}
+	.text-center p{
+	font-size: 20px;
+	}
+	.jumbotron{
+	height: 150px;
+	}
 	
   }
   @media screen and (max-width: 480px) {
