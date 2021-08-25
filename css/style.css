@@ -463,7 +463,8 @@ body {
   @media screen and (max-width: 767px) {
     .col-sm-4 {
       text-align: center;
-      margin: 25px 0;
+      padding: 0px;
+      margin: 0px;
     }
     .btn-lg {
       width: 100%;
@@ -481,9 +482,33 @@ body {
 	}
 	.selfText{
 	width: 100%;
+	padding: 5px;
 	}
 	.selfphoto{
 	width:100%;
+	}
+	.selfphoto img{
+	width: 100%;
+	}
+	.container-fluid{
+	padding: 0px;
+	}
+	.row{
+	width: 100%;
+	margin-left: 0px;
+	}
+	#pageTtitleText{
+	width: 100%;
+	text-align: center;
+	}
+	#pageTtitleText h4{
+	text-align: center;
+	}
+	#projectDiv{
+	width: 90%;
+	}
+	ol, ul {
+	padding-left: 15px;
 	}
 	
   }
