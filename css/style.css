@@ -4,6 +4,10 @@ body {
     color: #818181;
   }
 
+#wrap{
+
+}
+
 /*303030 각항목 테두리*/
   h2 {
     font-size: 24px;
@@ -33,7 +37,8 @@ body {
     background-size :cover;
     background-color: #5e42a6;
     color: #fff;
-    padding: 180px 25px 180px;
+/*     padding: 180px 25px 180px; */
+    padding: 160px 25px 140px;
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
   }
@@ -46,7 +51,7 @@ body {
   }
  /*기본 padding: 60px 50px; */
   .container-fluid {
-    padding: 60px 50px 20px;
+    padding: 50px 50px 20px;
   }
   
  /*배경색 f6f6f6*/
@@ -445,6 +450,12 @@ body {
 	width: 100%;
 	
 	}
+	.selfTextV2{
+	text-align: center;
+	}
+	.selfTextV2 h2{
+	margin: 0px;
+	}
 	
 	.selfText h2{
 	text-align: center;
@@ -453,6 +464,7 @@ body {
 	.selfphoto {
 	display : inline-block;
 	}
+	
 	.selfphoto img{
 	width : 400px;
 	text-align: center;
