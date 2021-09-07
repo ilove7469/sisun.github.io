@@ -4,10 +4,6 @@ body {
     color: #818181;
   }
 
-#wrap{
-
-}
-
 /*303030 각항목 테두리*/
   h2 {
     font-size: 24px;
@@ -178,7 +174,6 @@ body {
     border-radius: 0;
     font-family: Montserrat, sans-serif;
     border-bottom: 1px solid #a390d6;  
-    height: 20px;
   }
   
   #divlive{
@@ -327,6 +322,7 @@ body {
 
   #projectmenublue{
 	color: blue !important;
+	margin: 0px;
 	}
 
   #contactmenublue{
